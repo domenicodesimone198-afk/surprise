@@ -67,6 +67,7 @@ elif st.session_state.fase == 'proposta':
     st.balloons()
     st.title("Vuoi venire a Roma con me? 🏛️ ❤️")
     st.write("Ho prenotato un posto speciale per noi ad Aprile!")
+     st.write("DAL 22 AL 25...3 notti di fuegooo🔥🔥🔥")
     
     hotel_url = "https://www.booking.com/hotel/it/marconi-charme-rooms-amp-suites-2-min-metro-marconi-15-min-colosseo-a-c-amp-wifi.it.html"
     st.link_button("Guarda l'hotel 😍", hotel_url)
