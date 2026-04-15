@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Configurazione pagina
-st.set_page_config(page_title="Per Te ❤️", page_icon="🌹")
+st.set_page_config(page_title="Per Te ❤️🌻", page_icon="🌻")
 
 # CSS per lo sfondo arancione/giallo e testo scuro
 st.markdown("""
@@ -58,7 +58,7 @@ if 'fase' not in st.session_state:
     st.session_state.fase = 'inizio'
 
 if st.session_state.fase == 'inizio':
-    st.title("Ehi, ho una sorpresa per te... 🌹")
+    st.title("Hey Amore, ho una sorpresa per te... 🌻")
     if st.button("Cos'è? ✨"):
         st.session_state.fase = 'proposta'
         st.rerun()
@@ -72,5 +72,5 @@ elif st.session_state.fase == 'proposta':
     st.link_button("Guarda l'hotel 😍", hotel_url)
     
     if st.button("SÌ! 😍"):
-        st.success("Sarà bellissimo! Ti amo! ✨")
+        st.success("Sarà un 23 spiciaaaaaleeee! Ti amo! ✨🌻")
         st.snow()
